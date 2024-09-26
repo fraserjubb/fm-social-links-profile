@@ -3,6 +3,9 @@
   --white: #fff;
   --black: #000;
   --gray-500: #6b6b6b;
+  --grey-700: #333;
+  --grey-800: #1f1f1f;
+  --grey-900: #141414;
 
   /* Font Family */
   --ff-base: "Inter", sans-serif;
