@@ -126,23 +126,18 @@ MAIN:
   border-radius: 50%;
 }
 
-/* .card__title {
-} */
+.card__name,
+.card__description,
+.card__link a {
+  font-weight: var(--fw-bold);
+}
 
 .card__name {
   font-size: var(--fs-h1);
-  font-weight: var(--fw-bold);
 }
 
 .card__description {
-  font-weight: var(--fw-bold);
   color: var(--green);
-}
-
-.card__bio {
-}
-
-.card__nav {
 }
 
 .card__nav-list {
@@ -167,7 +162,6 @@ MAIN:
   min-width: 19rem;
   border-radius: var(--sp-8px);
 
-  font-weight: var(--fw-bold);
   text-decoration: none;
   color: inherit;
 
@@ -185,14 +179,13 @@ FOOTER:
 ********************************
 */
 
-/*UPDATE VALUES!*/
 .attribution {
   text-align: center;
   font-size: var(--fs-small);
   margin-bottom: var(--sp-24px);
 }
 
-/* LINKS */
+/* Footer links: */
 /* Default State */
 .attribution a:link {
   color: var(--gray-400);
