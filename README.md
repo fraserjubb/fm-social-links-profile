@@ -23,8 +23,8 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### Project Links
 
-- Solution URL: [Click Here]()
-- Live Site URL: [Click Here]()
+- Solution URL: [Click Here](https://www.frontendmentor.io/solutions/social-links-profile-solution---challenge-3-r2vbB7IJFm)
+- Live Site URL: [Click Here](https://fm-sociallinksprofile-fraser.netlify.app/)
 - Frontend Mentor Profile: [@fraserjubb](https://www.frontendmentor.io/profile/fraserjubb)
 
 ## My Process
@@ -46,7 +46,7 @@ flex: 1;
 max-width: 24rem;
 ```
 
-2. Figured out how to use the `<picture>` element to improve accessability:
+2. Figured out how to use the `<picture>` element to improve accessibility:
 
 ```html
 <picture>
