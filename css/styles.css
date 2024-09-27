@@ -134,6 +134,7 @@ MAIN:
 
 .card__name {
   font-size: var(--fs-h1);
+  margin-bottom: var(--sp-4px);
 }
 
 .card__description {
