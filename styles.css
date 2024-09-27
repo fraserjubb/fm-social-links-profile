@@ -3,18 +3,23 @@
   --white: #fff;
   --black: #000;
   --gray-500: #6b6b6b;
-  --grey-700: #333;
+  --grey-700: #333333;
   --grey-800: #1f1f1f;
   --grey-900: #141414;
+  --green: #c5f82a;
 
   /* Font Family */
   --ff-base: "Inter", sans-serif;
 
   /* Font Size: */
+  --fs-small: 0.75rem; /* 12px */
   --fs-base: 0.875rem; /* 14px */
+  --fs-h1: 1.5rem; /* 24px */
 
   /* Font Weight: */
   --fw-base: 400;
+  --fw-semi-bold: 600;
+  --fw-bold: 700;
 
   /* Line Height: */
   --lh-base: 1.5;
@@ -23,6 +28,7 @@
   --ls-base: 0;
 
   /* Spacing: */
+  --sp-40px: 2.5rem;
   --sp-24px: 1.5rem;
   --sp-20px: 1.25rem;
   --sp-16px: 1rem;
@@ -70,8 +76,8 @@ body {
   line-height: var(--lh-base);
   letter-spacing: var(--ls-base);
 
-  background-color: var(--yellow);
-  color: var(--gray-950);
+  background-color: var(--grey-900);
+  color: var(--white);
 }
 
 img,
@@ -88,8 +94,81 @@ svg {
 MAIN:
 ********************************
 */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.card {
+  background-color: var(--grey-800);
+  flex: 1;
+  max-width: 24rem;
+  min-height: 38.19rem;
+  padding: var(--sp-40px);
+  border-radius: var(--sp-12px);
+}
+
+.card__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--sp-24px);
+  margin-bottom: var(--sp-24px);
+}
+
 .card__profile {
-  width: 88px;
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 50%;
+}
+
+/* .card__title {
+} */
+
+.card__name {
+  font-size: var(--fs-h1);
+  font-weight: var(--fw-bold);
+}
+
+.card__description {
+  font-weight: var(--fw-bold);
+  color: var(--green);
+}
+
+.card__bio {
+}
+
+.card__nav {
+}
+
+.card__nav-list {
+  list-style: none;
+}
+
+.card__link {
+  margin-bottom: var(--sp-16px);
+}
+
+.card__link:last-child {
+  margin-bottom: 0;
+}
+
+.card__link a {
+  background-color: var(--grey-700);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 2.813rem;
+  min-width: 19rem;
+  border-radius: var(--sp-8px);
+
+  font-weight: var(--fw-bold);
+  text-decoration: none;
+  color: inherit;
 }
 
 /* 
@@ -102,7 +181,6 @@ FOOTER:
 .attribution {
   text-align: center;
   font-size: var(--fs-micro);
-  color: var(--gray-950);
   margin-bottom: var(--sp-24px);
 }
 
