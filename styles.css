@@ -169,6 +169,13 @@ MAIN:
   font-weight: var(--fw-bold);
   text-decoration: none;
   color: inherit;
+
+  transition: all 0.3s;
+}
+
+.card__link a:hover {
+  background-color: var(--green);
+  color: var(--grey-700);
 }
 
 /* 
