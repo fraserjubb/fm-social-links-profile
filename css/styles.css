@@ -2,7 +2,8 @@
   /* Colors: */
   --white: #fff;
   --black: #000;
-  --gray-500: #6b6b6b;
+  --gray-400: #9ca3af;
+  --gray-500: #6b7280;
   --grey-700: #333333;
   --grey-800: #1f1f1f;
   --grey-900: #141414;
@@ -194,21 +195,22 @@ FOOTER:
 /* LINKS */
 /* Default State */
 .attribution a:link {
-  color: var(--gray-500);
+  color: var(--gray-400);
   text-decoration: none;
+  transition: all 0.1s;
 }
 
 /* Visited State */
 .attribution a:visited {
-  color: var(--gray-500);
+  color: var(--gray-400);
 }
 
 /* State On Hover */
 .attribution a:hover {
-  color: var(--gray-700);
+  color: var(--gray-500);
 }
 
 /* State Whilst Being Clicked */
 .attribution a:active {
-  color: var(--gray-700);
+  color: var(--gray-500);
 }
