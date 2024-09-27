@@ -1,0 +1,33 @@
+/* MEDIA QUERIES */
+
+/* 
+********************************
+TABLET: 768px x 1024px
+********************************
+*/
+@media (max-width: 48em) {
+  .card {
+    max-width: 28.5rem;
+  }
+
+  .card__link a {
+    min-width: 23.5rem;
+  }
+}
+
+/* 
+********************************
+MOBILE: 500px
+********************************
+*/
+@media (max-width: 31.25em) {
+  .card {
+    max-width: 20.44rem;
+    min-height: 36.19rem;
+    padding: var(--sp-24px);
+  }
+
+  .card__link a {
+    min-width: 17.44rem;
+  }
+}

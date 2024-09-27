@@ -170,7 +170,7 @@ MAIN:
   text-decoration: none;
   color: inherit;
 
-  transition: all 0.3s;
+  transition: color 0.3s, background-color 0.3s;
 }
 
 .card__link a:hover {
