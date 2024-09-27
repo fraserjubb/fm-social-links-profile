@@ -18,7 +18,12 @@
     <main class="container">
       <article class="card">
         <header class="card__header">
-          <img class="card__profile" src="assets/images/profile-fraser.jpg" alt="Photo of Fraser Jubb" />
+          <picture>
+            <source srcset="assets/images/profile-fraser.avif" type="image/avif" />
+            <source srcset="assets/images/profile-fraser.webp" type="image/webp" />
+            <img class="card__profile" src="assets/images/profile-fraser.jpg" alt="Photo of Fraser Jubb" />
+          </picture>
+
           <div class="card__title">
             <h1 class="card__name">Fraser Jubb</h1>
             <p class="card__description">Edinburgh, United Kingdom</p>
