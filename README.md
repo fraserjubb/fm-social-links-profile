@@ -68,7 +68,7 @@ After submitting this project, I wish to develop the following:
 
 ### Useful Resources
 
-- Nothing of note used for this project.
+- [Image Optimizations - Lecture 145 (Udemy Course)](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/learn/lecture/27513368?start=1005#overview) - Nice, clear and well explained tutorial for how to optimize images and how to use the `<picture>` element.
 
 ## Noteworthy Updates Since Initial Submission
 
